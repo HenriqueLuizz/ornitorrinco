@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/HenriqueLuizz/ornitorrinco#readme",
   "dependencies": {
+    "@totvs/thf-web": "^12.1.18-fix002",
     "electron": "^1.6.1"
   },
   "devDependencies": {

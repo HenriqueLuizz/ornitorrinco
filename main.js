@@ -10,6 +10,7 @@ app.on('ready', () =>{
     console.log(__dirname);
 
     mainWindow.loadURL(`file://${__dirname}/public/index.html`);
+    
 });
 
 app.on('window-all-closed', () => {
@@ -30,7 +31,7 @@ ipcMain.on('abrir-janela-sobre', () => {
             sobreWindow = null;
         });
     }
-    sobreWindow.loadURL(`file://${__dirname}/src/public/sobre.html`);
+    sobreWindow.loadURL(`file://${__dirname}/src/app/sobre.html`);
 });
 
 ipcMain.on('fechar-janela-sobre', () => {
